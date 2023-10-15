@@ -44,7 +44,7 @@ export default class Calculator extends Component{
             values[1] = 0
 
             this.setState({
-                displayValue: value[0],
+                displayValue: values[0],
                 operation: equals ? null : operation,
                 current: equals ? 0 : 1,
                 clearDisplay: !equals,
